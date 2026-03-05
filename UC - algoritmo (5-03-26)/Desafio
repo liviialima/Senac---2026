@@ -1,0 +1,12 @@
+import random
+
+numeros2 = [1,2,4,5,6,8]
+numeros2.sort()
+print("lista sort():", numeros2)
+
+numeros2.sort(reverse=True)
+print("lista sort():", numeros2)
+
+random.shuffles(numeros2)
+print("Lista embaralhada:", numeros2)
+
