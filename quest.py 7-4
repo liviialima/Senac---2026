@@ -1,0 +1,14 @@
+Pão =int(input("Quantidade"))
+doce =int(input("Quantidade de doce"))
+bolo =int(input("Quantidade de bolo"))
+
+total = Pão * 1+ doce* 2 +bolo *3
+
+if total >=150:
+    print("Bolo")
+elif total >=120:
+    print("Doce")
+elif total >=120:
+    print("Pão")
+else:
+    print("N")
