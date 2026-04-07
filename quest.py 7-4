@@ -5,10 +5,10 @@ bolo =int(input("Quantidade de bolo"))
 total = Pão * 1+ doce* 2 +bolo *3
 
 if total >=150:
-    print("Bolo")
+    print("B")
 elif total >=120:
-    print("Doce")
+    print("D")
 elif total >=120:
-    print("Pão")
+    print("P")
 else:
     print("N")
